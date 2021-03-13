@@ -1,0 +1,12 @@
+version: "3.9"
+
+networks:
+  default:
+services:
+  alpine:
+    build: docker/alpine
+    volumes: [.:/app:rw, ./var/log:/var/log:rw, ./etc/nginx:/etc/nginx:rw]
+    ports: [5150:80]
+    networks:
+      default:
+        aliases: [local.dev]

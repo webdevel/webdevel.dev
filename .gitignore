@@ -1,0 +1,33 @@
+# dependencies
+/node_modules
+
+# devel
+/var
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+new-account.json
+linode
+reference
+autom4te.cache
+.ash_history
+.DS_Store
+.env*.local
+*.code-workspace
+/config.*
+config.h*
+config.mk
+configure
+configure.scan
+.api-*
+.sync-*
+.ssh-*
+*.log*
+members.linode.conf
+alpine-3.9.sh
+acme-client.sh

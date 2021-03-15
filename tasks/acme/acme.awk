@@ -1,5 +1,12 @@
 #!/usr/bin/env awk -f tasks/acme/acme.awk --
 
+# https://letsencrypt.org/docs/
+# https://pubs.opengroup.org/onlinepubs/9699919799/utilities/awk.html
+# https://www.gnu.org/software/gawk/manual/gawk.html#String-Functions
+# https://www.ssls.com/knowledgebase/how-to-install-an-ssl-certificate-on-a-nginx-server/
+# https://phoenixnap.com/kb/generate-openssl-certificate-signing-request
+# https://phoenixnap.com/kb/install-ssl-certificate-nginx
+
 BEGIN {
     VERSION = "0.1"
     ENVIRONMENT = "production"

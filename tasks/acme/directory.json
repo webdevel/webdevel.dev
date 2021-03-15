@@ -12,4 +12,4 @@
     "newNonce": "https://acme-staging-v02.api.letsencrypt.org/acme/new-nonce",
     "newOrder": "https://acme-staging-v02.api.letsencrypt.org/acme/new-order",
     "revokeCert": "https://acme-staging-v02.api.letsencrypt.org/acme/revoke-cert"
-  }
+}

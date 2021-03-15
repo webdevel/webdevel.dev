@@ -2,3 +2,4 @@
 node_modules
 var/cache
 var/log
+usr/include

@@ -2,7 +2,11 @@
 /node_modules
 
 # devel
+src/macros.h
 /var
+/usr
+*.o
+*.dev
 
 # testing
 /coverage

@@ -5,7 +5,7 @@ networks:
 services:
   alpine:
     build: docker/alpine
-    volumes: [.:/app:rw, ./var/log:/var/log:rw, ./etc/nginx:/etc/nginx:rw]
+    volumes: [.:/app:rw, ./var/log:/var/log:rw, ./etc/nginx:/etc/nginx:rw, ./usr/include:/usr/include:rw]
     ports: [5150:80]
     networks:
       default:

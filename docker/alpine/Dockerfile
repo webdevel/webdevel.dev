@@ -13,14 +13,15 @@ RUN set -eux; \
 RUN apk add --no-cache \
     autoconf \
     automake \
-    musl-dev \
+    libc-dev \
     fcgi-dev \
     rsyslog \
     tzdata \
     nginx \
     fcgi \
     make \
-    gcc
+    gcc \
+    musl-dev
 RUN sed -i '/imklog/s/^/#/' /etc/rsyslog.conf; \
     mkdir /run/nginx; \
     printf '' > /etc/motd; \
